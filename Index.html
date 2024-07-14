@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link
+      rel="shortcut icon"
+      href="./Images/logo.png"
+      type="image/x-icon"
+    />
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="./CSS/all.min.css" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <!-- Style -->
+    <link rel="stylesheet" href="./CSS/style.css" />
+</head>
+<body>
+
+    <!-- Loading -->
+    <!-- <div class="loading position-fixed top-0 start-0 end-0 bottom-0 bg-black justify-content-center align-items-center">
+        <span class="loader"></span>
+    </div> -->
+    
+    <!-- sideBar -->
+     
+    <div class="options d-flex">
+        <div class="optionsSide bg-black text-white px-4 d-flex align-items-start flex-column mb-3">
+            <ul class="list-unstyled py-4 mt-2 mb-auto p-2">
+                <li onclick="showSearchInputs() , autoClose()" class="pb-3">Search</li>
+                <li onclick="getCategories() , autoClose()" class="pb-3">Categories</li>
+                <li onclick="getArea() , autoClose()" class="pb-3">Area</li>
+                <li onclick="getIngredients() , autoClose()" class="pb-3">Ingredients</li>
+                <li onclick="showContacts() , autoClose()">Contact Us</li>
+              </ul>
+
+              <div class="optionsFooter mb-5 p-2">
+                <div class=" d-flex">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter px-2"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <p class="pt-3">Copyright Â© 2019 All Rights
+                </br>Reserved.</p>
+              </div>
+        </div>
+        <div class="logoSide bg-white text-black d-flex align-items-start flex-column mb-3">
+            <img src="./Images/logo.png" alt="..." class="mb-auto p-2 mt-2">
+            <i class="optionsIcon fa-solid fa-bars p-2 fs-2 mb-auto"></i>
+            <i class="fa-solid fa-globe p-2 pb-1"></i>
+            <i class="fa-solid fa-share-nodes p-2 mb-5"></i>
+            <p> <br><br> </p>
+        </div>
+    </div>    
+
+    <!-- Search Section -->
+     
+    <header id="searchContainer" class="container w-75"> </header>    
+    
+     <!-- Main Section -->
+
+    <main class="bg-black py-5">
+       
+        <div class="container w-75">
+            <div class="row g-3" id="rowData">
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- JS Scripts -->
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/jquery-3.4.1.min.js"></script>
+    <script src="./JS/Script.js"></script>
+
+</body>
+</html>
